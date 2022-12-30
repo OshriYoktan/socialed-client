@@ -1,0 +1,47 @@
+.social-posts {
+    flex: 1.5;
+    .upload-section {
+        padding: 20px;
+        background-color: white;
+        border-radius: 7px;
+        height: fit-content;
+        button {
+            height: fit-content;
+            padding: 10px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            &:hover {
+                background-color: rgba(226, 226, 226, 0.9);
+            }
+        }
+        .text-area {
+            display: flex;
+            gap: 20px;
+            border-bottom: 3px solid whitesmoke;
+            padding: 10px 0;
+            input {
+                flex-grow: 1;
+                outline: none;
+                border: none;
+                border-radius: 50px;
+                width: 100%;
+                padding: 15px;
+            }
+        }
+        .attach-links {
+            padding: 15px 0 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .link {
+                display: flex;
+                gap: 10px;
+                .post-btn {
+                    background-color: #ff4b2b;
+                    padding: 8px !important;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.social-friends {
+    flex: 1;
+    background-color: white;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 7px;
+    .friend {
+        p {
+            cursor: pointer;
+        }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .left-side {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+}

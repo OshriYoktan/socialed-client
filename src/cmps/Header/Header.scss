@@ -1,0 +1,58 @@
+.header {
+    padding: 20px 5%;
+    background-color: white;
+    nav {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        .left-side {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .logo {
+                cursor: pointer;
+            }
+            .filter {
+                cursor: pointer;
+                input {
+                    outline: none;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+        .right-side {
+            display: flex;
+            gap: 20px;
+        }
+    }
+    .mobile-btns {
+        position: absolute;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        padding: 20px;
+        * {
+            margin: 5px;
+        }
+    }
+    .profile-modal {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        width: 250px;
+        padding: 20px;
+        background-color: whitesmoke;
+        right: 0;
+        position: absolute;
+        box-shadow: 0px -1px 6px 0px #888888;
+        button {
+            margin-top: 3px;
+            height: 20px;
+            border-radius: 0px !important;
+        }
+
+    }
+}

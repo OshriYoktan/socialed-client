@@ -1,0 +1,140 @@
+@media screen and (max-width: 700px) {
+    body {
+        .social-app {
+            flex-direction: column;
+        }
+        .user-info {
+            flex-direction: column;
+        }
+        .social-friends {
+            margin-bottom: 10px;
+        }
+        .user-friends {
+            padding: 0 !important;
+        }
+        .header {
+            .right-side {
+                display: none !important;
+            }
+            .burger {
+                display: block !important;
+            }
+        }
+    }
+    
+}
+
+.burger {
+    display: none !important;
+}
+.mobile-btns {
+    display: none;
+}
+
+
+
+.app {
+    height: 100vh;
+    .social-app {
+        min-height: 89vh;
+        height: fit-content;
+        display: flex;
+        padding: 20px 5% 0 5%;
+        gap: 25px;
+        background-color: whitesmoke;
+    }
+}
+
+#light {
+    .header {
+        background-color: white !important;
+    }
+    .user {
+        background-color: white;
+    }
+    .user-details {
+        background-color: white;
+    }
+    .mobile-btns {
+        background-color: whitesmoke;
+    }
+    .container {
+        box-shadow: 0px 2px 2px 0px #888888;
+        input {
+            cursor: pointer;
+            font-weight: 600;
+            background-color: rgba(226, 226, 226, 0.2);
+            &:hover {
+                background-color: rgba(226, 226, 226, 0.9);
+            }
+            &:focus {
+                border: 1px solid #ff4b2b;
+                cursor: text;
+                background-color: rgba(226, 226, 226, 0.9);
+            }
+        }
+        .filter {
+        }
+    }
+}
+
+#dark {
+    background-color: #222;
+    .header {
+        background-color: #f0f0f0 !important;
+    }
+    .user {
+        background-color: #222;
+    }
+    .user-details {
+        background-color: #222;
+    }
+    .social-app {
+        background-color: #222;
+        * {
+            color: white;
+        }
+    }
+    .mobile-btns {
+        background-color: #222;
+    }
+    .chats,
+    .profile-modal {
+        background-color: #222;
+        button {
+            color: white !important;
+            background-color: #222 !important;
+            // background-color: rgba(226, 226, 226, 0.2) !important;
+            &:hover {
+                background-color: rgba(226, 226, 226, 0.8) !important;
+            }
+        }
+    }
+    .container {
+        background-color: #222;
+        box-shadow: 0px 0 2px 0px #fff;
+        input {
+            background-color: white;
+            font-weight: 600;
+            color: black;
+            cursor: pointer;
+            background-color: rgba(226, 226, 226, 0.2);
+            &:hover {
+                background-color: rgba(226, 226, 226, 0.9);
+            }
+            &:focus {
+                border: 1px solid #ff4b2b;
+                cursor: text;
+                background-color: rgba(226, 226, 226, 0.9);
+            }
+        }
+        .filter {
+            background-color: white;
+            align-items: center;
+        }
+    }
+}
+
+input::placeholder {
+    padding: 10px;
+}

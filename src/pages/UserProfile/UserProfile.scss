@@ -1,0 +1,47 @@
+.user-profile {
+    height: 100vh;
+    .user {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 5%;
+        .user-image {
+            align-self: center;
+            height: 300px;
+            max-width: 500px;
+            min-width: 200px;
+            div {
+                width: 100% !important;
+                height: 100% !important;;
+                border-radius: 7px !important;
+            }
+        }
+        .user-details {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            .user-info {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .user-posts {
+            display: flex;
+            flex-direction: column;
+            flex: 2;
+            h1 {
+                display: flex;
+                flex: 1;
+                padding: 15px;
+                justify-content: center;
+            }
+        }
+        .user-friends {
+            display: flex;
+            flex: 1;
+            padding: 15px;
+        }
+        .user-info {
+            display: flex;
+        }
+    }
+}

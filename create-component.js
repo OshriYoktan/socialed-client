@@ -1,6 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
+// node create-component.js --name BitcoinApp --dir ./pages
+
+
 const validOptions = {
     name: 'name',
     n: 'name',

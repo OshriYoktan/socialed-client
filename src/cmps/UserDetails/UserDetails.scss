@@ -1,0 +1,98 @@
+.user-details {
+    flex: 1;
+    background-color: white;
+    padding: 15px;
+    height: fit-content;
+    border-radius: 7px;
+    p {
+        font-weight: 600;
+    }
+    .user-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 0;
+        border-bottom: 3px solid whitesmoke;
+        .left-side {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            width: 100%;
+            .user-name {
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+                input {
+                    width: 100%;
+                    font-weight: 700;
+                    
+                }
+            }
+        }
+    }
+    .user-info {
+        border-bottom: 3px solid whitesmoke;
+        padding: 15px 0;
+        .user-section {
+            display: flex;
+            gap: 20px;
+            padding: 15px 0;
+            align-items: center;
+            input {
+                width: 100%;
+                
+            }
+        }
+    }
+    .user-followers {
+        border-bottom: 3px solid whitesmoke;
+        padding: 15px 0;
+        .user-follow {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+    }
+    .user-social {
+        padding: 15px 0;
+        form {
+            display: flex;
+            input {
+                width: 100%;
+            }
+        }
+        .social-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            .left-side {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                width: 100%;
+            }
+            .social-media {
+                display: flex;
+                flex-direction: column;
+                cursor: pointer;
+                width: 100%;
+            }
+        }
+    }
+    .users{
+        background-color: whitesmoke;
+        position: absolute;
+        z-index: 10;
+        width: 250px;
+        height: 250px;
+        overflow-y: scroll;
+        left: 380px;
+        bottom: 510px;
+        .user {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+}

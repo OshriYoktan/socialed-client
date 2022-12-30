@@ -1,0 +1,1 @@
+export { SocialPosts } from './SocialPosts'
